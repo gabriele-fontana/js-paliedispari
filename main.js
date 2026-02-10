@@ -10,4 +10,14 @@ return lwrcaseWord === rvrsWord;
 }
 
 /* Chiediamo l'inserimento all'utente tramite prompt */
-const parolaUtente = prompt("Inserisci una parola:");
+const userWord = prompt("Inserisci una parola:");
+
+if (userWord) {
+    if (isPalindroma(userWord)) {
+        console.log(`"${userWord}" è palindroma!`);
+        alert(`"${userWord}" è palindroma!`);
+    } else {
+        console.log(`"${userWord}" non è palindroma.`);
+        alert(`"${userWord}" non è palindroma.`);
+    }
+}
