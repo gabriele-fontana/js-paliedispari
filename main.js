@@ -39,7 +39,8 @@ const sum = userNumb + computerNumb
 function isEven(number){
     return number % 2 === 0;
 }
-const result = isEven(sum)
+const result = isEven(sum) ? 'even' : 'odd';
+console.log("Il risultato della somma è: " + result);
 /* print a message to declare the winner */
 if (userChoice === result){
     alert('hai vinto')
