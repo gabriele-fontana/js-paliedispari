@@ -10,3 +10,4 @@ return lwrcaseWord === rvrsWord;
 }
 
 /* Chiediamo l'inserimento all'utente tramite prompt */
+const parolaUtente = prompt("Inserisci una parola:");
