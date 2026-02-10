@@ -21,3 +21,13 @@ if (userWord) {
         alert(`"${userWord}" non è palindroma.`);
     }
 }
+
+
+
+/* add prompts */
+/* even or odd prompt */
+/* 1 to 5 number prompt */
+/* generate a random number for pc */
+/* add userNumb and computerNumb */
+/* create function to verify if sum is even or odd */
+/* print a message to declare the winner */
