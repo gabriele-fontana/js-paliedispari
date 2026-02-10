@@ -26,8 +26,13 @@ if (userWord) {
 
 /* add prompts */
 /* even or odd prompt */
+const userChoice = prompt("Scegli 'pari' o 'dispari':").toLowerCase();
 /* 1 to 5 number prompt */
+const userNumb = parseInt(prompt("Inserisci un numero da 1 a 5:"));
 /* generate a random number for pc */
+
 /* add userNumb and computerNumb */
+
 /* create function to verify if sum is even or odd */
+
 /* print a message to declare the winner */
